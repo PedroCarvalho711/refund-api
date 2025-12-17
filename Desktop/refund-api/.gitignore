@@ -1,0 +1,38 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+
+# Build
+dist/
+
+# Prisma
+.prisma/
+prisma/dev.db
+prisma/dev.db-journal
+
+# Uploads / temporários
+tmp/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.eslintcache
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
